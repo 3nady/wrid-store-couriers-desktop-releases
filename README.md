@@ -12,6 +12,7 @@ https://github.com/3nady/wrid-store-couriers-desktop-releases/releases/download/
 
 - All versions: [Releases](https://github.com/3nady/wrid-store-couriers-desktop-releases/releases)
 - Version info as JSON (version, size, sha256, link): [latest.json](https://raw.githubusercontent.com/3nady/wrid-store-couriers-desktop-releases/main/latest.json)
+- Installation guide as JSON (Arabic and English): [install-guide.json](https://raw.githubusercontent.com/3nady/wrid-store-couriers-desktop-releases/main/install-guide.json)
 
 ## Install
 

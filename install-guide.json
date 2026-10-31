@@ -1,0 +1,222 @@
+{
+  "app": "Wrid Couriers Desktop",
+  "version": "1.0.0",
+  "download_url": "https://github.com/3nady/wrid-store-couriers-desktop-releases/releases/download/v1.0.0/WridStoreCouriers-1.0.0-x64.msi",
+  "release_page": "https://github.com/3nady/wrid-store-couriers-desktop-releases/releases/tag/v1.0.0",
+  "file_name": "WridStoreCouriers-1.0.0-x64.msi",
+  "size_bytes": 52248576,
+  "sha256": "b2fd282d7d7e13af9328778bd9a9548cecfbc62490738ab0f5f26c206ae6142b",
+  "title": {
+    "ar": "تثبيت وريد مناديب على جهاز Windows",
+    "en": "Installing Wrid Couriers on a Windows PC"
+  },
+  "subtitle": {
+    "ar": "الإصدار 1.0.0 · Windows 10 و 11",
+    "en": "Version 1.0.0 · Windows 10 and 11"
+  },
+  "default_language": "ar",
+  "sections": [
+    {
+      "id": "req",
+      "number": 1,
+      "title": { "ar": "المتطلبات", "en": "Requirements" },
+      "blocks": [
+        {
+          "type": "list",
+          "ar": [
+            "جهاز يعمل بنظام Windows 10 أو Windows 11 بنسخة 64-بت.",
+            "صلاحية مسؤول (Administrator) على الجهاز مرة واحدة أثناء التثبيت.",
+            "مساحة فارغة 300 ميجابايت تقريباً.",
+            "اتصال بالإنترنت: الطلبات والمهام والتوزيع كلها على الخادم.",
+            "حساب وريد (رقم الجوال وكلمة المرور) نفسه المستخدم في تطبيق وريد مناديب على الجوال، بدور مندوب أو مدير مبيعات أو مدير مستودع.",
+            "للخريطة الحية: Microsoft Edge WebView2، وهو موجود مسبقاً في Windows 11 ومعظم أجهزة Windows 10.",
+            "لا حاجة لتثبيت .NET أو أي برنامج آخر: كل ما يلزم موجود داخل المثبّت."
+          ],
+          "en": [
+            "A PC running Windows 10 or Windows 11, 64-bit.",
+            "Administrator rights on the PC, once, during installation.",
+            "About 300 MB of free disk space.",
+            "An internet connection: orders, tasks and dispatch are all on the server.",
+            "A Wrid account (mobile number and password), the same one as the Wrid Couriers mobile app, with the courier, sales manager or warehouse manager role.",
+            "For the live map: Microsoft Edge WebView2, already present on Windows 11 and most Windows 10 PCs.",
+            "No need to install .NET or anything else: everything is inside the installer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "get",
+      "number": 2,
+      "title": { "ar": "تنزيل المثبّت", "en": "Get the installer" },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "ar": "المثبّت هو WridStoreCouriers-1.0.0-x64.msi (حوالي 50 ميجابايت). الرابط عام ولا يحتاج تسجيل دخول:",
+          "en": "The installer is WridStoreCouriers-1.0.0-x64.msi (about 50 MB). The link is public, no sign-in needed:"
+        },
+        {
+          "type": "steps",
+          "ar": ["نزّل WridStoreCouriers-1.0.0-x64.msi\nhttps://github.com/3nady/wrid-store-couriers-desktop-releases/releases/download/v1.0.0/WridStoreCouriers-1.0.0-x64.msi\nصفحة الإصدار: v1.0.0"],
+          "en": ["Download WridStoreCouriers-1.0.0-x64.msi\nhttps://github.com/3nady/wrid-store-couriers-desktop-releases/releases/download/v1.0.0/WridStoreCouriers-1.0.0-x64.msi\nRelease page: v1.0.0"],
+          "links": ["https://github.com/3nady/wrid-store-couriers-desktop-releases/releases/download/v1.0.0/WridStoreCouriers-1.0.0-x64.msi"]
+        },
+        {
+          "type": "paragraph",
+          "ar": "للتحقق من الملف (اختياري): SHA-256 = b2fd282d7d7e13af9328778bd9a9548cecfbc62490738ab0f5f26c206ae6142b",
+          "en": "To check the file (optional): SHA-256 = b2fd282d7d7e13af9328778bd9a9548cecfbc62490738ab0f5f26c206ae6142b"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "number": 3,
+      "title": { "ar": "التثبيت", "en": "Install" },
+      "blocks": [
+        {
+          "type": "steps",
+          "ar": [
+            "انقر نقراً مزدوجاً على WridStoreCouriers-1.0.0-x64.msi.",
+            "إذا ظهرت رسالة «حمى Windows جهاز الكمبيوتر» (SmartScreen): اضغط «مزيد من المعلومات» ثم «تشغيل على أي حال». تظهر لأن الملف غير موقّع رقمياً بعد.",
+            "في صفحة الترحيب اضغط Next. أبقِ مجلد التثبيت (C:\\Program Files\\Wrid Couriers) واضغط Next.",
+            "في «خيارات التثبيت» اختر «إنشاء اختصار على سطح المكتب» (مفعّل افتراضياً) و«التشغيل تلقائياً مع بدء Windows» (غير مفعّل افتراضياً)، ثم Next.",
+            "اضغط Install ووافق على طلب صلاحية المسؤول.",
+            "اترك «تشغيل البرنامج الآن» مفعّلاً واضغط Finish."
+          ],
+          "en": [
+            "Double-click WridStoreCouriers-1.0.0-x64.msi.",
+            "If \"Windows protected your PC\" (SmartScreen) appears: click More info, then Run anyway. It shows because the file is not code-signed yet.",
+            "On the welcome page click Next. Keep the install folder (C:\\Program Files\\Wrid Couriers) and click Next.",
+            "On Install options choose \"Create a desktop shortcut\" (on by default) and \"Start with Windows\" (off by default), then Next.",
+            "Click Install and accept the administrator prompt.",
+            "Leave \"Launch now\" ticked and click Finish."
+          ]
+        },
+        { "type": "heading", "ar": "التثبيت الصامت (عدة أجهزة)", "en": "Silent install (many PCs)" },
+        {
+          "type": "paragraph",
+          "ar": "من موجّه الأوامر بصلاحية مسؤول، داخل مجلد الملف:",
+          "en": "From an administrator Command Prompt, in the file's folder:"
+        },
+        { "type": "code", "text": "msiexec /i WridStoreCouriers-1.0.0-x64.msi /qn" },
+        {
+          "type": "paragraph",
+          "ar": "خيارات التثبيت الصامت: DESKTOP_SHORTCUT=0 بدون اختصار على سطح المكتب، و START_WITH_WINDOWS=1 للتشغيل مع Windows. يُحفظ الاختيار للتحديثات اللاحقة.",
+          "en": "Options for a silent install: DESKTOP_SHORTCUT=0 for no desktop shortcut, START_WITH_WINDOWS=1 to start with Windows. The choice is kept for later updates."
+        }
+      ]
+    },
+    {
+      "id": "first",
+      "number": 4,
+      "title": { "ar": "التشغيل الأول", "en": "First run" },
+      "blocks": [
+        {
+          "type": "steps",
+          "ar": [
+            "افتح «وريد مناديب - Wrid Couriers». يبدأ بالعربية، وزر اللغة في الأعلى يحوّل للإنجليزية.",
+            "أدخل رقم الجوال (مثل 05XXXXXXXX) وكلمة المرور ثم سجّل الدخول. نسيت كلمة المرور؟ اضغط «نسيت كلمة المرور» لاستعادتها برمز التحقق.",
+            "تظهر الصفحات حسب دورك: المندوب يرى «مهامي»، ومدير المبيعات يرى «التوزيع» و«الخريطة الحية» و«المناديب»، ومدير المستودع يرى «التسليم» و«المرتجعات»."
+          ],
+          "en": [
+            "Open \"وريد مناديب - Wrid Couriers\". It starts in Arabic; the language button at the top switches to English.",
+            "Enter the mobile number (e.g. 05XXXXXXXX) and the password, then sign in. Forgot the password? Click \"Forgot password\" to reset it with a verification code.",
+            "The pages follow your role: a courier sees My tasks; a sales manager sees Dispatch, Live map and Couriers; a warehouse manager sees Handover and Returns."
+          ]
+        },
+        {
+          "type": "note",
+          "ar": "تُحفظ الجلسة مشفّرة لمستخدم Windows الحالي، فلا يُطلب منك تسجيل الدخول عند كل تشغيل. لكل مستخدم Windows على الجهاز جلسته وإعداداته.",
+          "en": "The session is saved, encrypted for the current Windows user, so you are not asked to sign in at every start. Each Windows user on the PC has their own session and settings."
+        }
+      ]
+    },
+    {
+      "id": "server",
+      "number": 5,
+      "title": { "ar": "عنوان الخادم", "en": "Server address" },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "ar": "يتصل البرنامج افتراضياً بـ https://api.dev.wrid.sa. غيّره فقط إذا طلب منك الدعم ذلك. طريقتان:",
+          "en": "By default the app connects to https://api.dev.wrid.sa. Change it only when support asks you to. Two ways:"
+        },
+        {
+          "type": "list",
+          "ar": [
+            "لهذا المستخدم: الإعدادات ← عنوان الخادم ← حفظ. يُسجَّل خروجك بعد التغيير.",
+            "لكل مستخدمي الجهاز: افتح المفكرة كمسؤول وعدّل C:\\Program Files\\Wrid Couriers\\appsettings.json."
+          ],
+          "en": [
+            "For this user: Settings → Server address → Save. You are signed out after the change.",
+            "For every user of the PC: open Notepad as administrator and edit C:\\Program Files\\Wrid Couriers\\appsettings.json."
+          ]
+        },
+        { "type": "code", "text": "{\n  \"ApiUrl\": \"https://api.dev.wrid.sa\"\n}" },
+        {
+          "type": "note",
+          "tone": "warning",
+          "ar": "api.dev.wrid.sa يعمل على قاعدة البيانات الحقيقية. أي تسليم أو تحصيل أو إلغاء تجريبي يُسجَّل على طلبات الشركة الفعلية. جرّب بحساب شركة تجريبي.",
+          "en": "api.dev.wrid.sa runs on the real database. Every test delivery, collection or cancellation is recorded on the company's real orders. Test with a test company account."
+        }
+      ]
+    },
+    {
+      "id": "update",
+      "number": 6,
+      "title": { "ar": "التحديث والإزالة", "en": "Update and remove" },
+      "blocks": [
+        {
+          "type": "list",
+          "ar": [
+            "التحديث: عند صدور إصدار جديد يظهر في البرنامج تنبيه مع زر «تحديث الآن» ينزّل المثبّت الجديد. شغّله بالطريقة نفسها فيحلّ محل القديم مع الاحتفاظ بالجلسة والإعدادات وخيارات التثبيت. لا حاجة لإزالة القديم أولاً.",
+            "الإزالة: الإعدادات ← التطبيقات ← «وريد مناديب - Wrid Couriers» ← إلغاء التثبيت.",
+            "بيانات المستخدم (الجلسة والإعدادات وسجل الأخطاء) في %LOCALAPPDATA%\\WridStoreCouriers ولا تُحذف بالإزالة."
+          ],
+          "en": [
+            "Update: when a new version is out, the app shows a notice with an \"Update now\" button that downloads the new installer. Run it the same way; it replaces the old one in place and keeps the session, settings and install options. No need to uninstall first.",
+            "Remove: Settings → Apps → \"وريد مناديب - Wrid Couriers\" → Uninstall.",
+            "User data (session, settings and error log) is in %LOCALAPPDATA%\\WridStoreCouriers and is not deleted on removal."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trouble",
+      "number": 7,
+      "title": { "ar": "حل المشكلات", "en": "Troubleshooting" },
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [{ "ar": "المشكلة", "en": "Problem" }, { "ar": "الحل", "en": "Fix" }],
+          "rows": [
+            [
+              { "ar": "Windows يمنع تشغيل المثبّت", "en": "Windows blocks the installer" },
+              { "ar": "«مزيد من المعلومات» ← «تشغيل على أي حال». إذا لم يظهر الزر: انقر الملف بالزر الأيمن ← خصائص ← فعّل «إلغاء الحظر» ← موافق.", "en": "\"More info\" → \"Run anyway\". If there's no such button: right-click the file → Properties → tick \"Unblock\" → OK." }
+            ],
+            [
+              { "ar": "الخريطة الحية لا تظهر", "en": "The live map doesn't show" },
+              { "ar": "ثبّت Microsoft Edge WebView2 Runtime من موقع Microsoft ثم أعد تشغيل البرنامج.", "en": "Install the Microsoft Edge WebView2 Runtime from Microsoft's site, then restart the app." }
+            ],
+            [
+              { "ar": "«لا يوجد اتصال»", "en": "\"No connection\"" },
+              { "ar": "تحقق من الإنترنت ثم اضغط «إعادة المحاولة». الجلسة محفوظة ولا يلزم تسجيل الدخول من جديد.", "en": "Check the internet, then click \"Retry\". The session is kept, so no need to sign in again." }
+            ],
+            [
+              { "ar": "لا تظهر الصفحات المتوقعة بعد الدخول", "en": "The expected pages don't show after sign-in" },
+              { "ar": "الصفحات تتبع دور الحساب وصلاحياته في وريد. اطلب من مسؤول الشركة إضافة الدور المناسب.", "en": "The pages follow the account's role and permissions in Wrid. Ask the company admin to add the right role." }
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "ar": "عند التواصل مع الدعم أرسل الملف %LOCALAPPDATA%\\WridStoreCouriers\\errors.log إن وُجد. لفتح المجلد: اضغط Win + R واكتب %LOCALAPPDATA%\\WridStoreCouriers.",
+          "en": "If you contact support, send %LOCALAPPDATA%\\WridStoreCouriers\\errors.log if it exists. To open the folder: press Win + R and type %LOCALAPPDATA%\\WridStoreCouriers."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "ar": "وريد مناديب - Wrid Couriers · نسخة سطح المكتب 1.0.0 · الدعم عبر واتساب: +966 55 690 0966",
+    "en": "وريد مناديب - Wrid Couriers · Desktop 1.0.0 · WhatsApp support: +966 55 690 0966"
+  }
+}
