@@ -1,18 +1,18 @@
 {
   "app": "Wrid Couriers Desktop",
-  "version": "1.0.0",
-  "download_url": "https://github.com/3nady/wrid-store-couriers-desktop-releases/releases/download/v1.0.0/WridStoreCouriers-1.0.0-x64.msi",
-  "release_page": "https://github.com/3nady/wrid-store-couriers-desktop-releases/releases/tag/v1.0.0",
-  "file_name": "WridStoreCouriers-1.0.0-x64.msi",
+  "version": "1.0.1",
+  "download_url": "https://github.com/3nady/wrid-store-couriers-desktop-releases/releases/download/v1.0.1/WridStoreCouriers-1.0.1-x64.msi",
+  "release_page": "https://github.com/3nady/wrid-store-couriers-desktop-releases/releases/tag/v1.0.1",
+  "file_name": "WridStoreCouriers-1.0.1-x64.msi",
   "size_bytes": 52248576,
-  "sha256": "b2fd282d7d7e13af9328778bd9a9548cecfbc62490738ab0f5f26c206ae6142b",
+  "sha256": "7a0011530116c2640e0896dde6f7e672c76fb24df5484bf1d3aad7a059dd0ecb",
   "title": {
     "ar": "تثبيت وريد مناديب على جهاز Windows",
     "en": "Installing Wrid Couriers on a Windows PC"
   },
   "subtitle": {
-    "ar": "الإصدار 1.0.0 · Windows 10 و 11",
-    "en": "Version 1.0.0 · Windows 10 and 11"
+    "ar": "الإصدار 1.0.1 · Windows 10 و 11",
+    "en": "Version 1.0.1 · Windows 10 and 11"
   },
   "default_language": "ar",
   "sections": [
@@ -51,19 +51,19 @@
       "blocks": [
         {
           "type": "paragraph",
-          "ar": "المثبّت هو WridStoreCouriers-1.0.0-x64.msi (حوالي 50 ميجابايت). الرابط عام ولا يحتاج تسجيل دخول:",
-          "en": "The installer is WridStoreCouriers-1.0.0-x64.msi (about 50 MB). The link is public, no sign-in needed:"
+          "ar": "المثبّت هو WridStoreCouriers-1.0.1-x64.msi (حوالي 50 ميجابايت). الرابط عام ولا يحتاج تسجيل دخول:",
+          "en": "The installer is WridStoreCouriers-1.0.1-x64.msi (about 50 MB). The link is public, no sign-in needed:"
         },
         {
           "type": "steps",
-          "ar": ["نزّل WridStoreCouriers-1.0.0-x64.msi\nhttps://github.com/3nady/wrid-store-couriers-desktop-releases/releases/download/v1.0.0/WridStoreCouriers-1.0.0-x64.msi\nصفحة الإصدار: v1.0.0"],
-          "en": ["Download WridStoreCouriers-1.0.0-x64.msi\nhttps://github.com/3nady/wrid-store-couriers-desktop-releases/releases/download/v1.0.0/WridStoreCouriers-1.0.0-x64.msi\nRelease page: v1.0.0"],
-          "links": ["https://github.com/3nady/wrid-store-couriers-desktop-releases/releases/download/v1.0.0/WridStoreCouriers-1.0.0-x64.msi"]
+          "ar": ["نزّل WridStoreCouriers-1.0.1-x64.msi\nhttps://github.com/3nady/wrid-store-couriers-desktop-releases/releases/download/v1.0.1/WridStoreCouriers-1.0.1-x64.msi\nصفحة الإصدار: v1.0.1"],
+          "en": ["Download WridStoreCouriers-1.0.1-x64.msi\nhttps://github.com/3nady/wrid-store-couriers-desktop-releases/releases/download/v1.0.1/WridStoreCouriers-1.0.1-x64.msi\nRelease page: v1.0.1"],
+          "links": ["https://github.com/3nady/wrid-store-couriers-desktop-releases/releases/download/v1.0.1/WridStoreCouriers-1.0.1-x64.msi"]
         },
         {
           "type": "paragraph",
-          "ar": "للتحقق من الملف (اختياري): SHA-256 = b2fd282d7d7e13af9328778bd9a9548cecfbc62490738ab0f5f26c206ae6142b",
-          "en": "To check the file (optional): SHA-256 = b2fd282d7d7e13af9328778bd9a9548cecfbc62490738ab0f5f26c206ae6142b"
+          "ar": "للتحقق من الملف (اختياري): SHA-256 = 7a0011530116c2640e0896dde6f7e672c76fb24df5484bf1d3aad7a059dd0ecb",
+          "en": "To check the file (optional): SHA-256 = 7a0011530116c2640e0896dde6f7e672c76fb24df5484bf1d3aad7a059dd0ecb"
         }
       ]
     },
@@ -75,7 +75,7 @@
         {
           "type": "steps",
           "ar": [
-            "انقر نقراً مزدوجاً على WridStoreCouriers-1.0.0-x64.msi.",
+            "انقر نقراً مزدوجاً على WridStoreCouriers-1.0.1-x64.msi.",
             "إذا ظهرت رسالة «حمى Windows جهاز الكمبيوتر» (SmartScreen): اضغط «مزيد من المعلومات» ثم «تشغيل على أي حال». تظهر لأن الملف غير موقّع رقمياً بعد.",
             "في صفحة الترحيب اضغط Next. أبقِ مجلد التثبيت (C:\\Program Files\\Wrid Couriers) واضغط Next.",
             "في «خيارات التثبيت» اختر «إنشاء اختصار على سطح المكتب» (مفعّل افتراضياً) و«التشغيل تلقائياً مع بدء Windows» (غير مفعّل افتراضياً)، ثم Next.",
@@ -83,7 +83,7 @@
             "اترك «تشغيل البرنامج الآن» مفعّلاً واضغط Finish."
           ],
           "en": [
-            "Double-click WridStoreCouriers-1.0.0-x64.msi.",
+            "Double-click WridStoreCouriers-1.0.1-x64.msi.",
             "If \"Windows protected your PC\" (SmartScreen) appears: click More info, then Run anyway. It shows because the file is not code-signed yet.",
             "On the welcome page click Next. Keep the install folder (C:\\Program Files\\Wrid Couriers) and click Next.",
             "On Install options choose \"Create a desktop shortcut\" (on by default) and \"Start with Windows\" (off by default), then Next.",
@@ -97,7 +97,7 @@
           "ar": "من موجّه الأوامر بصلاحية مسؤول، داخل مجلد الملف:",
           "en": "From an administrator Command Prompt, in the file's folder:"
         },
-        { "type": "code", "text": "msiexec /i WridStoreCouriers-1.0.0-x64.msi /qn" },
+        { "type": "code", "text": "msiexec /i WridStoreCouriers-1.0.1-x64.msi /qn" },
         {
           "type": "paragraph",
           "ar": "خيارات التثبيت الصامت: DESKTOP_SHORTCUT=0 بدون اختصار على سطح المكتب، و START_WITH_WINDOWS=1 للتشغيل مع Windows. يُحفظ الاختيار للتحديثات اللاحقة.",
@@ -216,7 +216,7 @@
     }
   ],
   "footer": {
-    "ar": "وريد مناديب - Wrid Couriers · نسخة سطح المكتب 1.0.0 · الدعم عبر واتساب: +966 55 690 0966",
-    "en": "وريد مناديب - Wrid Couriers · Desktop 1.0.0 · WhatsApp support: +966 55 690 0966"
+    "ar": "وريد مناديب - Wrid Couriers · نسخة سطح المكتب 1.0.1 · الدعم عبر واتساب: +966 55 690 0966",
+    "en": "وريد مناديب - Wrid Couriers · Desktop 1.0.1 · WhatsApp support: +966 55 690 0966"
   }
 }

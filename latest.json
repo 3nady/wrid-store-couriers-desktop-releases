@@ -1,14 +1,14 @@
 {
   "app": "Wrid Couriers Desktop",
-  "version": "1.0.0",
-  "version_code": 1,
+  "version": "1.0.1",
+  "version_code": 2,
   "platform": "windows-x64",
   "min_os": "Windows 10 64-bit",
-  "file_name": "WridStoreCouriers-1.0.0-x64.msi",
+  "file_name": "WridStoreCouriers-1.0.1-x64.msi",
   "size_bytes": 52248576,
-  "sha256": "b2fd282d7d7e13af9328778bd9a9548cecfbc62490738ab0f5f26c206ae6142b",
-  "download_url": "https://github.com/3nady/wrid-store-couriers-desktop-releases/releases/download/v1.0.0/WridStoreCouriers-1.0.0-x64.msi",
-  "release_page": "https://github.com/3nady/wrid-store-couriers-desktop-releases/releases/tag/v1.0.0",
-  "silent_install": "msiexec /i WridStoreCouriers-1.0.0-x64.msi /qn",
-  "released_at": "2026-10-31"
+  "sha256": "7a0011530116c2640e0896dde6f7e672c76fb24df5484bf1d3aad7a059dd0ecb",
+  "download_url": "https://github.com/3nady/wrid-store-couriers-desktop-releases/releases/download/v1.0.1/WridStoreCouriers-1.0.1-x64.msi",
+  "release_page": "https://github.com/3nady/wrid-store-couriers-desktop-releases/releases/tag/v1.0.1",
+  "silent_install": "msiexec /i WridStoreCouriers-1.0.1-x64.msi /qn",
+  "released_at": "2026-11-03"
 }
